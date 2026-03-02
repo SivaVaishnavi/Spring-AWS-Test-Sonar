@@ -9,7 +9,7 @@ public class CseControllerTest {
     public void testAddCSE() {
         CseController controller = new CseController();
         String result = controller.addCSE(10, 5);
-        String expected = "The value is 15 and  ROLL NUMBER is 24P35A0550";
+        String expected = "The value is 15 and  ROLL NUMBER is 24P35A0541";
         assertEquals(expected, result);
     }
 }
